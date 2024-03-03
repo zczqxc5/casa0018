@@ -7,7 +7,16 @@
 ## Idea: 
 Complete the sentence:
 
-**I want my project to be able to (1) .................... using the (2)............... on my (3)...........**
+gesture detection for people who are deaf or hard of hearing
+**I want my project to be able to (1) (When I wave my hands up and down, the brightness of the led lights changes accordingly(as a smart home assistant for them)) using the (2)(accelerometer) on my (3)Arduino**
+**I want my project to be able to (1) (Recognize the sign language of deaf people "hello" & "see you later" and convert to sound "hello" & "see you later" by microphone) using the (2)(accelerometer) on my (3)Arduino**
+
+color detection
+**I want my project to be able to (1) (Identify the color of the content displayed on the picture and provide suggestions for layout color matching) using the (2)() on my (3)laptop**
+**I want my project to be able to (1) (Identify the colors of different rock points on the climbing wall and plan possible positions) using the (2)() on my (3)laptop**
+
+playful led
+**I want my project to be able to (1) (Interact with the leds through gestures, as if you were interacting with a flame) using the (2)(accelerometer) on my (3)Arduino**
 
 
 1. *e.g. detect when i say "wotcha", recognise a bird in a live camera stream etc*
