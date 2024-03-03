@@ -8,7 +8,7 @@
 Complete the sentence:
 
 gesture detection for people who are deaf or hard of hearing
-**I want my project to be able to (1) (When I wave my hands up and down, the brightness of the led lights changes accordingly(as a smart home assistant for them)) using the (2)(accelerometer) on my (3)Arduino**
+**I want my project to be able to (1) (When I wave my hands up and down, the brightness of the led lights changes accordingly(as a smart home assistant for them)) using the (2)(accelerometer) on my (3)Arduino**<br>
 **I want my project to be able to (1) (Recognize the sign language of deaf people "hello" & "see you later" and convert to sound "hello" & "see you later" by microphone) using the (2)(accelerometer) on my (3)Arduino**
 
 color detection
