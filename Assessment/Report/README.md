@@ -1,5 +1,4 @@
-# Report title goes here
-
+# Smart Dumbbell_DL4SN Project
 Xin Cheng  
 Github repo:https://github.com/zczqxc5/casa0018  
 Edge Impulse projects:https://studio.edgeimpulse.com/public/362071/live  
