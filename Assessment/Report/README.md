@@ -14,7 +14,6 @@ The concept of the Internet of Things, deploying deep learning technology to edg
 ## Research Question
 Can an embedded AI project based on neural networks be constructed to recognize dumbbell exercise movements and assist fitness enthusiasts in counting?  
 
-![image](https://github.com/zczqxc5/casa0018/assets/146037962/cd03bfc2-b545-4b83-bf8c-04c247aba5f9)
 
 ## Application Overview
 This project consists of three parts:   
@@ -42,6 +41,7 @@ Table1: Data Information
 | All | 182 | 194| 183 | 180 | 227 | 966 |
 
 <br>
+Table1: Data Information
 ![image](https://github.com/zczqxc5/casa0018/assets/146037962/4dac507a-cd18-4b8c-af1d-dec4d46b96f5)
 
 <p align="center"><em>Dembbell exercises I chose</em></p>
@@ -50,7 +50,7 @@ Table1: Data Information
 
 <p align="center"><em>Dembbell</em></p>
 <br>
-![image](https://github.com/zczqxc5/casa0018/assets/146037962/de834b72-09cc-4dc9-b7d1-d0e24ea39269)
+
 
 
 ## Model
