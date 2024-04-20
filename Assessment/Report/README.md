@@ -39,12 +39,12 @@ Table1: Data Infomation
 
 ![image](https://github.com/zczqxc5/casa0018/assets/146037962/4c88ed8a-7670-44b8-8c1f-3c561d5391bb)
 
-<p align="center"><em>Dembbell exercises I chose</em></p>
+<p align="center"><em>Dumbbell exercises I chose</em></p>
  <br>
 
 ![image](https://github.com/zczqxc5/casa0018/assets/146037962/cf50bb06-277a-4673-a17a-dc58422b7cb5)
 
-<p align="center"><em>Dembbell</em></p>
+<p align="center"><em>Dumbbell</em></p>
  <br>
 
 Data processing involves both pre-processing and post-processing stages. In the pre-processing phase, 30 seconds of continuous motion data are collected, as continuous motion captures transitions between movements and natural variations in the movements, which is closer to real-world usage scenarios ("Continuous motion recognition | Edge Impulse Documentation," 2024). Subsequently, by observing data characteristics, windows are manually segmented into equal 2-second intervals, eliminating intervals between movements and data with indistinct features.
