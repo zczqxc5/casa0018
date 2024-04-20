@@ -26,6 +26,7 @@ During the application process, the built-in IMU of the Arduino captures motion 
 ![image](https://github.com/zczqxc5/casa0018/assets/146037962/ca4a25ac-2c9a-456a-8e70-2a404fa8319b)
 <p align="center"><em>Application Diagram</em></p>
 <br>
+![image](https://github.com/zczqxc5/casa0018/assets/146037962/378b8d7b-58a5-4fd8-a971-6564b8d0a577)
 
 ![image](https://github.com/zczqxc5/casa0018/assets/146037962/8deb5ed1-56b4-406c-ae4d-cb46159f1997)
 <p align="center"><em>Working Flow</em></p>
