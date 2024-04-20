@@ -1,6 +1,9 @@
 # Report title goes here
 
-Xin Cheng, link to github repo with project work in:https://github.com/zczqxc5/casa0018 / link to Edge Impulse projects:https://studio.edgeimpulse.com/public/362071/live
+Xin Cheng
+Github repo:https://github.com/zczqxc5/casa0018
+Edge Impulse projects:https://studio.edgeimpulse.com/public/362071/live
+Video presentation:https://youtu.be/uWszBTIhyO8
 
 ## Introduction
 This is a deep learning project based on neural networks, aimed at creating a smart dumbbell that recognises and counts movements during dumbbell workouts for fitness enthusiasts and provides prompts. By recognizing data from the built-in accelerometer on Arduino Nano, different dumbbell motions are detected, and an LED lights are connected to display exercise condition.
@@ -23,14 +26,28 @@ During the application process, the built-in IMU of the Arduino captures motion 
 ![image](https://github.com/zczqxc5/casa0018/assets/146037962/ca4a25ac-2c9a-456a-8e70-2a404fa8319b)
 <p align="center"><em>Application Diagram</em></p>
 
+
 ![image](https://github.com/zczqxc5/casa0018/assets/146037962/8deb5ed1-56b4-406c-ae4d-cb46159f1997)
 <p align="center"><em>Working Flow</em></p>
 
 
 ## Data
-Describe what data sources you have used and any cleaning, wrangling or organising you have done. Including some examples of the data helps others understand what you have been working with.
+Gesture data are collected by the onboard accelerometer connected to the Arduino Nano (accX, accY, accZ, gyrX, gyrY, gyrZ, magX, magY, magZ). The experiment gathered 966 samples from 10 participants, totaling 34 minutes and 24 seconds, of which 81% and 19% were used for model training and test, respectively. This sample distribution was chosen to maximize the quantity of data and improve model accuracy. Fitness data were categorized into five labels: "Dumbbell Row," "Hammer Curls," "Upright Row," "Deep Squat," and "other". The first four fitness movement data were derived from ten participants of varying genders, heights, and fitness levels, using both left and right hands. They performed the movements by mimicking a standard reference video ("Top dumbbell exercises for your shoulders, back and arms | Technogym United Kingdom," n.d.). Data under the "other" label included potential dumbbell movements during fitness activities such as shaking, lying flat, rolling, and Interference movements. Additionally, the orientation of the dumbbell was considered during data collection, with arrows affixed to the dumbbell to indicate the direction of grip.
 
-*Tip: probably ~200 words and images of what the data 'looks like' are good!*
+Table1: Data Information
+|  | Dumbbell Row | Hammer Curls | Upright Row | Deep Squat | Other | All |
+|:-------|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|
+| Training | 149 | 151 | 144 | 142 | 193 | 799(81%) |
+| Test | 33 | 43 | 39 | 38 | 34 | 187(19%) |
+| All | 182 | 194| 183 | 180 | 227 | 966 |
+
+
+![image](https://github.com/zczqxc5/casa0018/assets/146037962/6773ce51-2faa-49f9-8b7d-02bb2d092727)
+<p align="center"><em>Dembbell exercises I chose</em></p>
+
+![image](https://github.com/zczqxc5/casa0018/assets/146037962/c7811ac6-535b-4fee-b3fe-f2fa3e43150f)
+<p align="center"><em>Dembbell</em></p>
+
 
 ## Model
 This is a Deep Learning project! What model architecture did you use? Did you try different ones? Why did you choose the ones you did?
@@ -54,10 +71,7 @@ Synthesis the main results and observations you made from building the project. 
 
 2. Last name, First initial. (Year published). Title. Edition. (Only include the edition if it is not the first edition) City published: Publisher, Page(s). http://google.com
 
-*Tip: we use [https://www.citethisforme.com](https://www.citethisforme.com) to make this task even easier.* 
-
-----
-
+*Tip: we use [https://www.citethisforme.com](https://www.citethisforme.com) 
 ## Declaration of Authorship
 
 I, AUTHORS NAME HERE, confirm that the work presented in this assessment is my own. Where information has been derived from other sources, I confirm that this has been indicated in the work.
