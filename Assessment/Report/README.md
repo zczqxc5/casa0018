@@ -1,6 +1,6 @@
 # Report title goes here
 
-Xin Cheng
+Xin Cheng  
 Github repo:https://github.com/zczqxc5/casa0018  
 Edge Impulse projects:https://studio.edgeimpulse.com/public/362071/live  
 Video presentation:https://youtu.be/uWszBTIhyO8  
@@ -42,10 +42,12 @@ Table1: Data Information
 | All | 182 | 194| 183 | 180 | 227 | 966 |
 
 <br>
-![image](https://github.com/zczqxc5/casa0018/assets/146037962/6773ce51-2faa-49f9-8b7d-02bb2d092727)
+![image](https://github.com/zczqxc5/casa0018/assets/146037962/4dac507a-cd18-4b8c-af1d-dec4d46b96f5)
+
 <p align="center"><em>Dembbell exercises I chose</em></p>
 <br>
-![image](https://github.com/zczqxc5/casa0018/assets/146037962/c7811ac6-535b-4fee-b3fe-f2fa3e43150f)
+![image](https://github.com/zczqxc5/casa0018/assets/146037962/7ab79393-382a-4f9f-bc5c-ec0b39fd7991)
+
 <p align="center"><em>Dembbell</em></p>
 <br>
 
