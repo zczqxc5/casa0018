@@ -25,9 +25,6 @@ During the application process, the built-in IMU of the Arduino captures motion 
 
 ![image](https://github.com/zczqxc5/casa0018/assets/146037962/ca4a25ac-2c9a-456a-8e70-2a404fa8319b)
 <p align="center"><em>Application Diagram</em></p>
-<br>
-![image](https://github.com/zczqxc5/casa0018/assets/146037962/cee65e36-7d58-4190-8212-24ec61fefdf7)
-
 
 ![image](https://github.com/zczqxc5/casa0018/assets/146037962/8deb5ed1-56b4-406c-ae4d-cb46159f1997)
 <p align="center"><em>Working Flow</em></p>
@@ -52,6 +49,8 @@ Table1: Data Information
 
 <p align="center"><em>Dembbell</em></p>
 <br>
+![image](https://github.com/zczqxc5/casa0018/assets/146037962/de834b72-09cc-4dc9-b7d1-d0e24ea39269)
+
 
 ## Model
 This is a Deep Learning project! What model architecture did you use? Did you try different ones? Why did you choose the ones you did?
