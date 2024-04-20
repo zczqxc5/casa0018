@@ -37,7 +37,9 @@ Gesture data are collected by the onboard accelerometer connected to the Arduino
 ![image](https://github.com/zczqxc5/casa0018/assets/146037962/4dac507a-cd18-4b8c-af1d-dec4d46b96f5)
 <p align="center"><em>Dembbell exercises I chose</em></p>
 <br>
-
+![image](https://github.com/zczqxc5/casa0018/assets/146037962/7ab79393-382a-4f9f-bc5c-ec0b39fd7991)
+<p align="center"><em>Dembbell</em></p>
+<br>
 
 <br>
 Table1: Data Information
