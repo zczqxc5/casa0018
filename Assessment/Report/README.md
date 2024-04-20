@@ -41,15 +41,11 @@ Gesture data are collected by the onboard accelerometer connected to the Arduino
 <p align="center"><em>Dembbell</em></p>
 <br>
 
+Table1: Data Infomation
+![image](https://github.com/zczqxc5/casa0018/assets/146037962/29d13847-f937-4689-aca9-b1bdf5c6c787)
 
-Table1: Data Information
-|  | Dumbbell Row | Hammer Curls | Upright Row | Deep Squat | Other | All |
-|:-------|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|
-| Training | 149 | 151 | 144 | 142 | 193 | 799(81%) |
-| Test | 33 | 43 | 39 | 38 | 34 | 187(19%) |
-| All | 182 | 194| 183 | 180 | 227 | 966 |
 
-<br>
+
 
 ## Model
 This is a Deep Learning project! What model architecture did you use? Did you try different ones? Why did you choose the ones you did?
