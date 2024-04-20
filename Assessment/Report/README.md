@@ -33,13 +33,17 @@ During the application process, the built-in IMU of the Arduino captures motion 
 ## Data
 Gesture data are collected by the onboard accelerometer connected to the Arduino Nano (accX, accY, accZ, gyrX, gyrY, gyrZ, magX, magY, magZ). The experiment gathered 966 samples from 10 participants, totaling 34 minutes and 24 seconds, of which 81% and 19% were used for model training and test, respectively. This sample distribution was chosen to maximize the quantity of data and improve model accuracy. Fitness data were categorized into five labels: "Dumbbell Row," "Hammer Curls," "Upright Row," "Deep Squat," and "other". The first four fitness movement data were derived from ten participants of varying genders, heights, and fitness levels, using both left and right hands. They performed the movements by mimicking a standard reference video ("Top dumbbell exercises for your shoulders, back and arms | Technogym United Kingdom," n.d.). Data under the "other" label included potential dumbbell movements during fitness activities such as shaking, lying flat, rolling, and Interference movements. Additionally, the orientation of the dumbbell was considered during data collection, with arrows affixed to the dumbbell to indicate the direction of grip.
 
-<br>
-![image](https://github.com/zczqxc5/casa0018/assets/146037962/4dac507a-cd18-4b8c-af1d-dec4d46b96f5)
+
+
+![image](https://github.com/zczqxc5/casa0018/assets/146037962/4c88ed8a-7670-44b8-8c1f-3c561d5391bb)
+
 <p align="center"><em>Dembbell exercises I chose</em></p>
-<br>
-![image](https://github.com/zczqxc5/casa0018/assets/146037962/7ab79393-382a-4f9f-bc5c-ec0b39fd7991)
+
+
+![image](https://github.com/zczqxc5/casa0018/assets/146037962/cf50bb06-277a-4673-a17a-dc58422b7cb5)
+
 <p align="center"><em>Dembbell</em></p>
-<br>
+
 
 Table1: Data Infomation
 ![image](https://github.com/zczqxc5/casa0018/assets/146037962/29d13847-f937-4689-aca9-b1bdf5c6c787)
