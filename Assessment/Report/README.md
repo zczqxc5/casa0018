@@ -25,7 +25,8 @@ During the application process, the built-in IMU of the Arduino captures motion 
 
 ![image](https://github.com/zczqxc5/casa0018/assets/146037962/ca4a25ac-2c9a-456a-8e70-2a404fa8319b)
 <p align="center"><em>Application Diagram</em></p>
-
+ <br>
+ 
 ![image](https://github.com/zczqxc5/casa0018/assets/146037962/8deb5ed1-56b4-406c-ae4d-cb46159f1997)
 <p align="center"><em>Working Flow</em></p>
 <br>
@@ -35,17 +36,17 @@ Gesture data are collected by the onboard accelerometer connected to the Arduino
 
 Table1: Data Infomation
 ![image](https://github.com/zczqxc5/casa0018/assets/146037962/29d13847-f937-4689-aca9-b1bdf5c6c787)
-
+ <br>
 
 ![image](https://github.com/zczqxc5/casa0018/assets/146037962/4c88ed8a-7670-44b8-8c1f-3c561d5391bb)
 
 <p align="center"><em>Dembbell exercises I chose</em></p>
-
+ <br>
 
 ![image](https://github.com/zczqxc5/casa0018/assets/146037962/cf50bb06-277a-4673-a17a-dc58422b7cb5)
 
 <p align="center"><em>Dembbell</em></p>
-
+ <br>
 
 Data processing involves both pre-processing and post-processing stages. In the pre-processing phase, 30 seconds of continuous motion data are collected, as continuous motion captures transitions between movements and natural variations in the movements, which is closer to real-world usage scenarios ("Continuous motion recognition | Edge Impulse Documentation," 2024). Subsequently, by observing data characteristics, windows are manually segmented into equal 2-second intervals, eliminating intervals between movements and data with indistinct features.
 
@@ -53,7 +54,7 @@ Data processing involves both pre-processing and post-processing stages. In the 
 ![image](https://github.com/zczqxc5/casa0018/assets/146037962/76d69fda-6a06-458b-ab43-f8b391df74f4)
 ![image](https://github.com/zczqxc5/casa0018/assets/146037962/bdfedefd-17e9-4f71-8726-e12512b6f849)
 <p align="center"><em>Data of each action completed by cutting</em></p>
-
+ <br>
 
 After the initial training of the model, erroneous data are marked with red dots. Among these, disruptive data—flaws present due to manual trimming—are identified and removed. For example, as shown in the incorrect data graph below, the selection of the cropping window is clearly incorrect, featuring nearly a second of stagnant gesture. After removing these data, the model is retrained.
 
@@ -62,7 +63,7 @@ After the initial training of the model, erroneous data are marked with red dots
 
 ![image](https://github.com/zczqxc5/casa0018/assets/146037962/34def87f-6455-4191-baf7-fbedeeb6fc35)
 <p align="center"><em>Flaw Data</em></p>
-
+ <br>
 
 
 ## Model
