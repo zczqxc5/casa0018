@@ -14,6 +14,7 @@ The concept of the Internet of Things, deploying deep learning technology to edg
 ## Research Question
 Can an embedded AI project based on neural networks be constructed to recognize dumbbell exercise movements and assist fitness enthusiasts in counting?  
 
+![image](https://github.com/zczqxc5/casa0018/assets/146037962/cd03bfc2-b545-4b83-bf8c-04c247aba5f9)
 
 ## Application Overview
 This project consists of three parts:   
