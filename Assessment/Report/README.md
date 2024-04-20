@@ -47,6 +47,24 @@ Table1: Data Infomation
 <p align="center"><em>Dembbell</em></p>
 
 
+Data processing involves both pre-processing and post-processing stages. In the pre-processing phase, 30 seconds of continuous motion data are collected, as continuous motion captures transitions between movements and natural variations in the movements, which is closer to real-world usage scenarios ("Continuous motion recognition | Edge Impulse Documentation," 2024). Subsequently, by observing data characteristics, windows are manually segmented into equal 2-second intervals, eliminating intervals between movements and data with indistinct features.
+
+![image](https://github.com/zczqxc5/casa0018/assets/146037962/34760eaf-3497-4584-a7dd-e8d7b877dde0)
+![image](https://github.com/zczqxc5/casa0018/assets/146037962/76d69fda-6a06-458b-ab43-f8b391df74f4)
+![image](https://github.com/zczqxc5/casa0018/assets/146037962/bdfedefd-17e9-4f71-8726-e12512b6f849)
+<p align="center"><em>Data of each action completed by cutting</em></p>
+
+
+After the initial training of the model, erroneous data are marked with red dots. Among these, disruptive data—flaws present due to manual trimming—are identified and removed. For example, as shown in the incorrect data graph below, the selection of the cropping window is clearly incorrect, featuring nearly a second of stagnant gesture. After removing these data, the model is retrained.
+
+
+![image](https://github.com/zczqxc5/casa0018/assets/146037962/b974a5cc-6eaf-46b1-a9a9-8186ea50d044)
+
+![image](https://github.com/zczqxc5/casa0018/assets/146037962/34def87f-6455-4191-baf7-fbedeeb6fc35)
+<p align="center"><em>Flaw Data</em></p>
+
+
+
 ## Model
 This is a Deep Learning project! What model architecture did you use? Did you try different ones? Why did you choose the ones you did?
 
